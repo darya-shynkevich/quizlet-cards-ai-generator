@@ -166,4 +166,4 @@ cython_debug/
 /cache/*
 
 trash
-.idea
+.idea/

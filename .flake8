@@ -1,0 +1,10 @@
+[flake8]
+exclude = .git,__pycache__,.eggs,*.egg,.pip-cache,.poetry,.venv,proto,english_prompt_text.py,polish_prompt_text.py
+ignore = E203,E266,E501,W503,B909
+max-line-length = 88
+max-complexity = 18
+select = B,C,E,F,W,T4,B9,I252,U100
+unused-arguments-ignore-abstract-functions = 1
+unused-arguments-ignore-override-functions = 1
+unused-arguments-ignore-stub-functions = 1
+ban-relative-imports = parents
